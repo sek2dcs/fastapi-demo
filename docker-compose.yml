@@ -23,7 +23,7 @@ services:
     depends_on:
       - mongodb
     ports:
-      - 8000:8000
+      - 8000:80
     networks:
       - api-network
     restart: always
